@@ -7,32 +7,32 @@ Légende des statuts :
 - **Validée** : validée par le propriétaire, prête pour la veille.
 - **Rejetée** : écartée par le propriétaire.
 
-Date de dernière vérification de l'URL : 2026-11-05 (à remplir lors de la validation).
+Date de dernière vérification de l'URL : 2026-11-06.
 
 ## 1. Sources primaires UE
 
-| # | Source | Type | URL | Statut |
+| # | Source | Type | URL | Statut (test du 2026-11-06) |
 |---|--------|------|-----|--------|
-| UE-1 | EUR-Lex : règlement d'exécution (UE) 2019/947 (exploitation) | Texte officiel (JO) | https://eur-lex.europa.eu/eli/reg_impl/2019/947/oj | Validée |
-| UE-2 | EASA : réglementation et standards drones | Page officielle de l'agence | https://www.easa.europa.eu/domains/drones-air-mobility/rules-standards | Validée |
-| UE-3 | EASA : AMC/GM UAS (moyens de conformité et guides) | Guidance officielle | https://www.easa.europa.eu/en/document-library/acceptable-means-of-compliance-and-guidance-materials/reg/unmanned-aircraft-systems-uas | Validée |
-| UE-4 | EASA : FAQ réglementation drones | Réponses officielles | https://www.easa.europa.eu/newsroom-and-events/news/easa-published-faqs-european-drones-regulation | Validée |
-| UE-5 | Règlement délégué (UE) 2019/945 (conception, classes C0 à C4) | Texte officiel (JO), version consolidée | https://eur-lex.europa.eu/eli/reg_del/2019/945/oj | Validée (versions consolidées à vérifier : 2025 existent) |
+| UE-1 | EUR-Lex : règlement d'exécution (UE) 2019/947 (exploitation) | Texte officiel (JO) | https://eur-lex.europa.eu/eli/reg_impl/2019/947/oj | Accessible (HTTP 200) |
+| UE-2 | EASA : réglementation et standards drones | Page officielle de l'agence | https://www.easa.europa.eu/en/domains/drones-air-mobility/rules-standards | Accessible (HTTP 200) |
+| UE-3 | EASA : AMC/GM UAS (moyens de conformité et guides) | Guidance officielle | https://www.easa.europa.eu/en/document-library/acceptable-means-of-compliance-and-guidance-material/reg/unmanned-aircraft-systems-uas | Accessible (HTTP 200) |
+| UE-4 | EASA : FAQ réglementation drones | Réponses officielles | https://www.easa.europa.eu/en/newsroom-and-events/news/easa-published-faqs-european-drones-regulation | Accessible (HTTP 200) |
+| UE-5 | Règlement délégué (UE) 2019/945 (conception, classes C0 à C4) | Texte officiel (JO), version consolidée | https://eur-lex.europa.eu/eli/reg_del/2019/945/oj | Accessible (HTTP 202) ; versions consolidées 2025 à vérifier |
 ## 2. Sources primaires France
 
-| # | Source | Type | URL | Statut |
+| # | Source | Type | URL | Statut (test du 2026-11-06) |
 |---|--------|------|-----|--------|
-| FR-1 | SIA : AIP France, suppléments (SUP) et circulaires (AIC) | Publication officielle de la navigation aérienne | https://www.sia.aviation-civile.gouv.fr | Validée |
-| FR-2 | DGAC : page drones (aviation-civile.gouv.fr) | Site officiel de l'autorité | URL exacte à confirmer | Validée (URL à confirmer) |
-| FR-3 | « Mon espace drone » : déclaration d'opérateur | Télé-service officiel | https://monespacedrone.dsac.aviation-civile.gouv.fr (trouvée via source secondaire, à confirmer sur aviation-civile.gouv.fr) | Validée (URL à confirmer) |
-| FR-4 | Géoportail : carte des zones de restriction drones (DGAC / IGN) | Carte officielle | URL à confirmer | Validée (URL à confirmer) |
-| FR-5 | Légifrance : arrêté du 3 décembre 2020 (scénarios standard nationaux) et textes nationaux | Texte officiel (JORF) | https://legifrance.gouv.fr/jorf/id/JORFTEXT000053435245 (à confirmer : titre de l'arrêté) | Validée (URL à confirmer) |
+| FR-1 | SIA : AIP France, suppléments (SUP) et circulaires (AIC) | Publication officielle de la navigation aérienne | https://www.sia.aviation-civile.gouv.fr | Accessible (HTTP 200) |
+| FR-2 | DGAC : page drones (aviation-civile.gouv.fr) | Site officiel de l'autorité | https://www.aviation-civile.gouv.fr (page drones à confirmer) | Inaccessible : certificat TLS du site expiré (vérification impossible) |
+| FR-3 | « Mon espace drone » : déclaration d'opérateur | Télé-service officiel | https://monespacedrone.dsac.aviation-civile.gouv.fr (à confirmer sur aviation-civile.gouv.fr) | Inaccessible : passerelle en erreur 502 |
+| FR-4 | Géoportail : carte des zones de restriction drones (DGAC / IGN) | Carte officielle | https://cartes.gouv.fr (ancien www.geoportail.gouv.fr redirige ici) | Accessible (HTTP 200) |
+| FR-5 | Légifrance : arrêté du 3 décembre 2020 (scénarios standard nationaux) et textes nationaux | Texte officiel (JORF) | https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053435245 (titre de l'arrêté à confirmer) | Inaccessible : HTTP 403 du proxy |
 ## 3. Organismes connexes (primaires)
 
-| # | Source | Type | URL | Statut |
+| # | Source | Type | URL | Statut (test du 2026-11-06) |
 |---|--------|------|-----|--------|
-| CO-1 | CNIL : drones et captation d'images (RGPD) | Autorité officielle | URL à confirmer | Validée (URL à confirmer) |
-| CO-2 | ANFR : fréquences et équipements radio des drones | Autorité officielle | URL à confirmer | Validée (URL à confirmer) |
+| CO-1 | CNIL : drones et captation d'images (RGPD) | Autorité officielle | https://www.cnil.fr (page drones à confirmer) | Accessible (HTTP 200) |
+| CO-2 | ANFR : fréquences et équipements radio des drones | Autorité officielle | https://www.anfr.fr (page drones à confirmer) | Accessible (HTTP 200) |
 ## 4. Points à vérifier avant validation
 
 - **Scénarios nationaux** (arrêté du 3 décembre 2020) : selon des sources secondaires, la réglementation UE ne permettait leur usage que jusqu'au 1er janvier 2026. Le texte officiel doit confirmer ce point avant toute publication.

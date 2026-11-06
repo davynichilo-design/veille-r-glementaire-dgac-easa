@@ -23,7 +23,11 @@ Date de dernière vérification de l'URL : 2026-11-06.
 | # | Source | Type | URL | Statut (test du 2026-11-06) |
 |---|--------|------|-----|--------|
 | FR-1 | SIA : AIP France, suppléments (SUP) et circulaires (AIC) | Publication officielle de la navigation aérienne | https://www.sia.aviation-civile.gouv.fr | Accessible (HTTP 200) |
-| FR-2 | DGAC : page drones (aviation-civile.gouv.fr) | Site officiel de l'autorité | https://www.aviation-civile.gouv.fr (page drones à confirmer) | Inaccessible : certificat TLS du site expiré (vérification impossible) |
+| FR-2a | DGAC (publiée sur ecologie.gouv.fr) : exploitation en catégorie spécifique (mise à jour 13/07/2026) | Page officielle | https://www.ecologie.gouv.fr/exploitation-drones-en-categorie-specifique | Accessible (HTTP 200) |
+| FR-2b | DGAC : formation à la catégorie ouverte (UAS) | Page officielle | https://www.ecologie.gouv.fr/formation-categorie-ouverte-uas | Accessible (HTTP 200) |
+| FR-2c | DGAC : FAQ transition européenne UAS (PDF) | Document officiel | https://www.ecologie.gouv.fr/sites/default/files/documents/FAQ_Transition_europeenne_UAS.pdf | Accessible (HTTP 200) |
+| FR-2d | DGAC : fiche réflexe catégorie spécifique (PDF) | Document officiel | https://www.ecologie.gouv.fr/sites/default/files/documents/Fiche_reflexe_specifique.pdf | Accessible (HTTP 200) |
+| FR-2e | DGAC : site principal aviation-civile.gouv.fr | Site officiel de l'autorité | https://www.aviation-civile.gouv.fr | Inaccessible : certificat TLS expiré (vérification impossible) |
 | FR-3 | « Mon espace drone » : déclaration d'opérateur | Télé-service officiel | https://monespacedrone.dsac.aviation-civile.gouv.fr (à confirmer sur aviation-civile.gouv.fr) | Inaccessible : passerelle en erreur 502 |
 | FR-4 | Géoportail : carte des zones de restriction drones (DGAC / IGN) | Carte officielle | https://cartes.gouv.fr (ancien www.geoportail.gouv.fr redirige ici) | Accessible (HTTP 200) |
 | FR-5 | Légifrance : arrêté du 3 décembre 2020 (scénarios standard nationaux) et textes nationaux | Texte officiel (JORF) | https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053435245 (titre de l'arrêté à confirmer) | Inaccessible : HTTP 403 du proxy |

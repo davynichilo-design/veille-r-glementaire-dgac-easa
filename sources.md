@@ -13,11 +13,11 @@ Date de dernière vérification de l'URL : 2026-11-06.
 
 | # | Source | Type | URL | Statut (test du 2026-11-06) |
 |---|--------|------|-----|--------|
-| UE-1 | EUR-Lex : règlement d'exécution (UE) 2019/947 (exploitation) | Texte officiel (JO) | https://eur-lex.europa.eu/eli/reg_impl/2019/947/oj | Accessible (HTTP 200) |
+| UE-1 | EUR-Lex : règlement d'exécution (UE) 2019/947 (exploitation) | Texte officiel (JO) | https://eur-lex.europa.eu/eli/reg_impl/2019/947/oj | Inaccessible : HTTP 202 sans contenu (0 octet), texte illisible |
 | UE-2 | EASA : réglementation et standards drones | Page officielle de l'agence | https://www.easa.europa.eu/en/domains/drones-air-mobility/rules-standards | Accessible (HTTP 200) |
 | UE-3 | EASA : AMC/GM UAS (moyens de conformité et guides) | Guidance officielle | https://www.easa.europa.eu/en/document-library/acceptable-means-of-compliance-and-guidance-material/reg/unmanned-aircraft-systems-uas | Accessible (HTTP 200) |
 | UE-4 | EASA : FAQ réglementation drones | Réponses officielles | https://www.easa.europa.eu/en/newsroom-and-events/news/easa-published-faqs-european-drones-regulation | Accessible (HTTP 200) |
-| UE-5 | Règlement délégué (UE) 2019/945 (conception, classes C0 à C4) | Texte officiel (JO), version consolidée | https://eur-lex.europa.eu/eli/reg_del/2019/945/oj | Accessible (HTTP 202) ; versions consolidées 2025 à vérifier |
+| UE-5 | Règlement délégué (UE) 2019/945 (conception, classes C0 à C4) | Texte officiel (JO), version consolidée | https://eur-lex.europa.eu/eli/reg_del/2019/945/oj | Inaccessible : HTTP 202 sans contenu (0 octet), texte illisible |
 ## 2. Sources primaires France
 
 | # | Source | Type | URL | Statut (test du 2026-11-06) |
